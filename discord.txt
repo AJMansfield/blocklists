@@ -1,4 +1,4 @@
-! Title: Discord Cosmetic Tweaks
+! Title: AJMansfield's Tweaks for Discord
 ! Expires: 1 days
 ! Last modified: 2024-10-19T11:52:57-04:00
 ! License: https://github.com/AJMansfield/blocklists/blob/master/LICENSE
