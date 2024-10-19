@@ -1,0 +1,25 @@
+! Title: AJMansfield's Tweaks for YouTube
+! Expires: 1 days
+! Last modified: 2024-10-19T11:52:57-04:00
+! License: https://github.com/AJMansfield/blocklists/blob/master/LICENSE
+! Homepage: https://github.com/AJMansfield/blocklists
+! Reporting Issues: https://github.com/AJMansfield/blocklists/issues
+
+! disable scrolling down from full-screen video
+www.youtube.com##ytd-app:style(overflow: hidden !important;)
+
+! remove banners from main page
+www.youtube.com##.ytd-statement-banner-renderer
+
+! remove shorts sections from main page
+www.youtube.com##ytd-rich-section-renderer
+
+! fix page layout issue caused by deleting above sections
+www.youtube.com##ytd-rich-item-renderer:remove-attr(is-in-first-column)
+
+! block mouseover playback of thumbnails
+www.youtube.com##:xpath(//div[@id='mouseover-overlay'])
+www.youtube.com##ytd-video-preview
+
+! disable the service worker that makes loading slow
+||www.youtube.com^$csp=worker-src 'none'
