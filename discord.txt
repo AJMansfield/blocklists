@@ -10,5 +10,4 @@ discord.com##.buttons_d0696b
 discord.com##.channelAppLauncher_df39bd
 
 ! change new notification sound back to old one
-||discord.com/assets/93034ac8d9eba50e3354.mp3^$media,uritransform=/93034ac8d9eba50e3354/70ae9d5bc54e4e0954f9/
-
+||discord.com/assets/9c8918dc3d97db178620.mp3^$media,uritransform=/9c8918dc3d97db178620/70ae9d5bc54e4e0954f9/
