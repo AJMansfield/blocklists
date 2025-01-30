@@ -8,7 +8,9 @@
 ! remove extra buttons from post textbox
 discord.com##.buttons_d0696b
 discord.com##.buttons_bdf0de
+discord.com##.buttons__74017
 discord.com##.channelAppLauncher_df39bd
+discord.com##.channelAppLauncher_e6e74f
 
 ! change new notification sound back to old one
 ||discord.com/assets/9c8918dc3d97db178620.mp3^$media,uritransform=/9c8918dc3d97db178620/70ae9d5bc54e4e0954f9/
