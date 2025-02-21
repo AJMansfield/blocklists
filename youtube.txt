@@ -23,3 +23,6 @@ www.youtube.com##ytd-video-preview
 
 ! disable the service worker that makes loading slow
 ||www.youtube.com^$csp=worker-src 'none'
+
+! remove shorts section from view page
+www.youtube.com##ytd-reel-shelf-renderer
