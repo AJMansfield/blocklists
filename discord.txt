@@ -14,6 +14,8 @@ discord.com##.channelAppLauncher_e6e74f
 
 ! remove the top bar
 discord.com##.bar_c38106
+discord.com##*[style*="--custom-app-top-bar-height"]:style(--custom-app-top-bar-height:0 !important)
+
 
 ! change new notification sound back to old one
 ||discord.com/assets/9c8918dc3d97db178620.mp3^$media,uritransform=/9c8918dc3d97db178620/70ae9d5bc54e4e0954f9/
