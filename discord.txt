@@ -19,10 +19,10 @@ discord.com##body:style(--custom-app-top-bar-height:0 !important;)
 discord.com##.sidebarList_c48ade:remove-class(sidebarListRounded_c48ade)
 
 ! make guild icons bigger
-discord.com##body:style(--guildbar-avatar-size:52px !important;)
+!discord.com##body:style(--guildbar-avatar-size:52px !important;)
 !discord.com##.wrapper_cc5dd2:style(width:56px !important; height:52px !important;)
-discord.com##+js(set-attr, .wrapper_cc5dd2 > svg, width, 52)
-discord.com##+js(set-attr, .wrapper_cc5dd2 > svg, height, 52)
+!discord.com##+js(set-attr, .wrapper_cc5dd2 > svg, width, 52)
+!discord.com##+js(set-attr, .wrapper_cc5dd2 > svg, height, 52)
 
 ! change new notification sound back to old one
 ||discord.com/assets/9c8918dc3d97db178620.mp3^$media,uritransform=/9c8918dc3d97db178620/70ae9d5bc54e4e0954f9/
