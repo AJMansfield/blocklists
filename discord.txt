@@ -11,6 +11,7 @@ discord.com##.buttons_bdf0de
 discord.com##.buttons__74017
 discord.com##.channelAppLauncher_df39bd
 discord.com##.channelAppLauncher_e6e74f
+discord.com##._740174f3d6a2c8fe-buttons
 
 ! remove the top bar
 discord.com##body:style(--custom-app-top-bar-height:0 !important;)
